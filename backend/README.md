@@ -26,7 +26,6 @@ Pour pouvoir gérer les images dans les diférentes requêtes, il faut créer un
 Positionner vous dans le dossier `backend` avec la commande : `cd backend`.
 
 Ensuite, initialiser le back-end avec la commande : `npm install`.
-Cela installera le node_modules et le fichier package-lock.json.
 
 Ensuite, lancer le back-end avec la commande : `npm start`
 Cela démarrera le serveur nodeJS sur le port 3000 et éxecutera le fichier development.env .
