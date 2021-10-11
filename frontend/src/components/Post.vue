@@ -39,6 +39,7 @@
           v-b-modal="`modal-photo-${post.id}`"
           class="post__image"
           :src="post.imageUrl"
+          alt="Image de profil"
         />
         <b-modal
           :id="`modal-photo-${post.id}`"
@@ -48,7 +49,7 @@
         >
           <div slot="modal-title"></div>
           <div class="d-flex align-items-center justify-content-center">
-            <img class="modal-photo__img" :src="post.imageUrl" alt="" />
+            <img class="modal-photo__img" :src="post.imageUrl" alt="Image de profil" />
           </div>
           <div slot="modal-footer"></div>
         </b-modal>

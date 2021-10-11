@@ -13,7 +13,7 @@
         />
         </div>
       </router-link>
-    </div>
+  </div>
     <b-container fluid>
       <b-row class="text-center justify-content-center">
         <b-col cols="12" lg="4">

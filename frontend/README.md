@@ -1,18 +1,14 @@
 # Groupomania / Frontend #
 
 ## Installation ##
+Positionner vous dans le dossier `frontend` avec la commande : `cd frontend` 
 
-Dans votre terminal, exécutez les commandes suivantes : 
+Ensuite, initialiser le front-end avec la commande : `npm install`
+Cela installera le node_modules et le fichier package-lock.json.
 
-- `cd frontend`
-- `npm install`
-
-### Lancer l'application
-
-Dans votre terminal, à l'intérieur de ce dossier, lancer le front-end de l'application en saisissant :
-
-- `npm run serve`
+### Lancer l'application ##
+Pour lancer le front-end, saisisser : `npm run serve`
 
 Cela lancera l'application sur le serveur local 8080 et sur votre navigateur. 
 
-Si vous rencontrer un problème, lancer l'adresse suivante http://localhost:8080/ directement dans votre navigateur.
+Si vous rencontrer un problème, lancer l'adresse suivante http://localhost:8080/ directement dans l'URL de votre navigateur.

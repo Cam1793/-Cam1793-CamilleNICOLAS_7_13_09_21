@@ -1,6 +1,6 @@
 <template>
   <div :class="divCustomClass">
-    <img id="avatar-img" :class="customClass" :src="src || 'avatar-placeholder.jpg'" />
+    <img id="avatar-img" alt="Image du profil" :class="customClass" :src="src || 'avatar-placeholder.jpg'" />
   </div>
 </template>
 

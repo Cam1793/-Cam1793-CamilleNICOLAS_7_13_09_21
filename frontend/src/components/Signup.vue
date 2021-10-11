@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container">
+  <div class="page-container-signup">
     <b-container fluid>
       <b-row class="text-center justify-content-center">
         <b-col cols="12" lg="4">
@@ -113,7 +113,7 @@ export default {
 </script>
 
 <style lang="css">
-.container-fluid{
+.page-container-signup{
   margin-top: 10em;
 }
 
@@ -128,9 +128,8 @@ a {
   color: rgba(253, 45, 6, 0.8);
 }
 
-#create-account:hover{
-  
-  text-decoration: none !important;
+.ml-1:hover{
+text-decoration: none !important;
 }
 
 #login-title{
@@ -164,7 +163,6 @@ a {
   background-color: rgb(253, 45, 6) !important;
   color: white !important;
 }
-
 
 @media screen and (min-width: 280px) and (max-width: 769px) {
   .card-body {

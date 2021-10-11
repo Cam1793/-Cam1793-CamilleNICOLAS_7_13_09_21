@@ -23,7 +23,7 @@
         id="preview"
         class="d-flex justify-content-center align-items-center"
       >
-        <img class="mt-3" v-if="url" :src="url" />
+        <img class="mt-3" v-if="url" :src="url" alt="Image de la publication"/>
       </div>
     </b-form-group>
     <div class="line mb-3"></div>
@@ -34,7 +34,7 @@
           @click="triggerInput"
           type="button"
         >
-          <span class="mr-2 d-md-block">Choisir un fichier</span>
+          <span class="mr-2 d-md-block">Choisir une image</span>
           <i class="fas fa-paperclip"></i>
         </button>
         <button

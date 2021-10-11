@@ -37,8 +37,8 @@
         :isAdmin="userData.admin"
         @clickedEditButton="startEditing"
         @onDelete="onDelete"
-        modifyText="Modifier"
-        deleteText="Supprimer"
+        modifyText=" Modifier"
+        deleteText=" Supprimer"
       >
       </EditButton>
     </div>
@@ -117,8 +117,11 @@ export default {
 }
 
 .collapse-button {
-  right: 232px;
-  top: 35px;
+  right: 410px;
+  top: 0px;
+  background-color: #fff;
+  box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
+  padding: 5px;
 }
 
 .input-content:focus {
@@ -132,6 +135,68 @@ export default {
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 1440px){
+  .collapse-button {
+    right: 180px;
+  }
+}
+
+@media screen and (max-width: 1439px){
+  .collapse-button {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1245px){
+  .collapse-button {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1163px){
+  .collapse-button {
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 1041px){
+  .collapse-button {
+    right: -30px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .collapse-button {
+    right: 450px;
+  }
+}
+
+@media screen and (max-width: 947px){
+  .collapse-button {
+    right: 350px;
+  }
+}
+
+@media screen and (max-width: 841px){
+  .collapse-button {
+    right: 250px;
+  }
+}
+
+
+@media screen and (max-width: 681px){
+  .collapse-button {
+    right: 150px;
+  }
+}
+
+
+@media screen and (max-width: 585px){
+  .collapse-button {
+    right: 0px;
+  }
+}
+
 @media screen and (min-width: 280px) and (max-width: 767px) {
   .comment-date {
     font-size: 0.6rem;
@@ -140,11 +205,6 @@ export default {
   .comment-button {
     margin-bottom: 0;
     margin-left: 3px;
-  }
-  
-  .collapse-button {
-    right: 22px;
-    top: 32px;
   }
 }
 </style>
