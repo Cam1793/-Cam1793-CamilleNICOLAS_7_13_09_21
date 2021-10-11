@@ -31,9 +31,6 @@ module.exports = {
       },
       likesCount: {
         type: Sequelize.INTEGER
-      },
-      dislikesCount: {
-        type: Sequelize.INTEGER
       }
     })
   },

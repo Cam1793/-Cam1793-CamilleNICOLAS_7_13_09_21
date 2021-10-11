@@ -19,6 +19,9 @@ Dans le fichier development.env, il faut intégrer la variable environnement uti
 
 Afin de vous faciliter la tâche, les fichiers sont déjà intégré dans le dossier back-end. Il vous reste à les complèter.
 
+## Création du dossier images ##
+Pour pouvoir gérer les images dans les diférentes requêtes, il faut créer un dossier intitulé `images` dans la racine du dossier backend. C'est dans ce dossier que les images des requêtes seront transferées ou supprimées.
+
 ## Initialisation du back-end ##
 Dans votre terminal, à l'intérieur de ce dossier, lancer le back-end avec la commande : `npm start`.
 
