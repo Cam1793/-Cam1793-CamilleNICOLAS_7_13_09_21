@@ -9,7 +9,7 @@ Pour pouvoir lancer le back-end de l'application, vous avez besoin d'avoir Node.
 
 Pour tester le projet, vous devez créer 1 fichier DOTENV intitulé development.env .
 
-Dans le fichier development.env, il faut intégrer la variable environnement utilisée, les configurations de votre base de données MySQL, les configurations de votre localhost et du port ainsi que votre token. Cela ce présente comme ceci :
+Dans le fichier development.env, il faut intégrer les configurations de votre base de données MySQL, les configurations de votre localhost et du port ainsi que votre secret token. Cela ce présente comme ceci :
 -  PORT= 3000 (le port sur lequel il écoute le serveur et écoute les appels reçues).
 -  DB_USERNAME= Le nom d'utilisateur de la base de données.
 -  DB_PASSWORD= Le mot de passe de la base de données.
