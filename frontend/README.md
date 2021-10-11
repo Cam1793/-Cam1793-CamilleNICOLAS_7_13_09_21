@@ -1,4 +1,8 @@
-# Groupomania / Frontend #
+## GROUPOMANIA ##
+
+## PROJET 7 -- CRÉATION D'UN RÉSEAUX SOCIAL DANS UNE ENTREPRISE ##
+
+## FRONT-END ##
 
 ## Installation ##
 Positionner vous dans le dossier `frontend` avec la commande : `cd frontend` 

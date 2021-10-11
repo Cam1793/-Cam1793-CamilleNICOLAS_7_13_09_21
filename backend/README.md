@@ -23,9 +23,9 @@ Afin de vous faciliter la tâche, les fichiers sont déjà intégré dans le dos
 Pour pouvoir gérer les images dans les diférentes requêtes, il faut créer un dossier intitulé `images` dans la racine du dossier backend. C'est dans ce dossier que les images des requêtes seront transferées ou supprimées.
 
 ## Initialisation du back-end ##
-Positionner vous dans le dossier `backend` avec la commande : `cd backend`
+Positionner vous dans le dossier `backend` avec la commande : `cd backend`.
 
-Ensuite, initialiser le back-end avec la commande : `npm install`
+Ensuite, initialiser le back-end avec la commande : `npm install`.
 Cela installera le node_modules et le fichier package-lock.json.
 
 Ensuite, lancer le back-end avec la commande : `npm start`
