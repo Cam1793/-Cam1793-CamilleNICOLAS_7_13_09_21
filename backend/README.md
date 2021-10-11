@@ -23,11 +23,11 @@ Afin de vous faciliter la tâche, les fichiers sont déjà intégré dans le dos
 Pour pouvoir gérer les images dans les diférentes requêtes, il faut créer un dossier intitulé `images` dans la racine du dossier backend. C'est dans ce dossier que les images des requêtes seront transferées ou supprimées.
 
 ## Initialisation du back-end ##
-Positionner vous dans le dossier `backend` avec la commande : `cd backend`.
+Positionnez vous dans le dossier `backend` avec la commande : `cd backend`.
 
 Ensuite, initialiser le back-end avec la commande : `npm install`.
 
-Ensuite, lancer le back-end avec la commande : `npm start`
+Ensuite, lancer le back-end avec la commande : `npm start`.
 Cela démarrera le serveur nodeJS sur le port 3000 et éxecutera le fichier development.env .
 
 Le serveur doit être lancé sur un localhost avec par défaut un port 3000. 
