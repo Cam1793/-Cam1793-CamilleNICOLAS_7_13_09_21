@@ -7,9 +7,9 @@
 ## Informations prérequis ##
 Pour pouvoir lancer le back-end de l'application, vous avez besoin d'avoir Node.js et npm localement installés dans votre pc.
 
-Pour tester le projet, vous devez créer 1 fichier DOTENV intitulé development.env .
+Pour tester le projet, vous devez créer 1 fichier DOTENV intitulé .env .
 
-Dans le fichier development.env, il faut intégrer les configurations de votre base de données MySQL, les configurations de votre localhost et du port ainsi que votre secret token. Cela ce présente comme ceci :
+Dans le fichier .env, il faut intégrer les configurations de votre base de données MySQL, les configurations de votre localhost et du port ainsi que votre secret token. Cela ce présente comme ceci :
 -  PORT= 3000 (le port sur lequel il écoute le serveur et écoute les appels reçues).
 -  DB_USERNAME= Le nom d'utilisateur de la base de données.
 -  DB_PASSWORD= Le mot de passe de la base de données.
@@ -28,7 +28,7 @@ Positionnez vous dans le dossier `backend` avec la commande : `cd backend`.
 Ensuite, initialiser le back-end avec la commande : `npm install`.
 
 Ensuite, lancer le back-end avec la commande : `npm start`.
-Cela démarrera le serveur nodeJS sur le port 3000 et éxecutera le fichier development.env .
+Cela démarrera le serveur nodeJS sur le port 3000 et éxecutera le fichier .env .
 
 Le serveur doit être lancé sur un localhost avec par défaut un port 3000. 
 
