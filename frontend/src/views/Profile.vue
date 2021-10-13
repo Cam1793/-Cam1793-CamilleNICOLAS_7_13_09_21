@@ -209,8 +209,7 @@ export default {
 
 .profile-main-picture {
   padding-top: 17px;
-  height: 70px;
-  transform: scale(2.5);
+  transform: scale(3.2);
 }
 
 .custom-file-label {
