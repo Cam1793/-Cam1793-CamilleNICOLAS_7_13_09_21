@@ -13,6 +13,7 @@ export default {
 
 <style lang="css">
 #avatar-img{
+  border-radius: 100%;
   max-width: 50px;
 }
 </style>
